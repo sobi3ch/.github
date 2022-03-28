@@ -1,0 +1,9 @@
+name: Test action
+description: Share this action across repos
+
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: |
+        echo "TEST (SHARED) GITHUB ACTION"
